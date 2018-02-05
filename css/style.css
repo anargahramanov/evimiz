@@ -1,0 +1,138 @@
+
+#main{
+	width: 100%;
+	font-family: "Calibri";
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#header .topNav{
+	width: 100%;
+	height: 36px;
+	background-color: #e5ebf1;
+}
+
+#header .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+#header .topNav li{
+	display: inline-block;
+	padding:10px;
+}
+
+#header .topNav .daxilOl li{
+	padding-left: 50px;
+}
+
+#header .topNav li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(51,51,51);
+}
+
+#header .navBar{
+	padding: 28px 0px;
+}
+
+#header .navBar .logo{
+	width: 165px;
+	height: 47px;
+}
+
+#header .navBar .search{
+	display: flex;
+    border: 1px solid #e8e8e8;
+}
+
+#header .navBar .search input{
+	width: 282px;
+	border:none;
+	border-right: 1px solid #e8e8e8;
+	font-size: 14px;
+	color: rgb(135,137,138);
+	padding-left: 13px;
+}
+
+#header .navBar .search button{
+	width: 70px;
+	height: 47px;
+	border:none;
+	border-radius: 0px 3px 3px 0px;
+	background-color: #ebcd4b;
+	padding: 0px;
+}
+
+#header .navBar .search select{
+	border:none;
+	font-size: 14px;
+	color: rgb(135,137,138);
+	width: 120px;
+	padding-left: 13px;
+}
+
+#header .navBar .basket a{
+    font-size: 20px;
+    color: rgb(51,51,51);
+    text-decoration: none;
+    line-height: 48px;
+}
+
+#header .navBar .basket i{
+	color: #595959;
+}
+
+#header .navBar .phoneNumber{
+	display: flex;
+}
+
+#header .navBar .phoneNumber h5{
+	font-weight: bold;
+}
+
+#header .navBar .phoneNumber h3{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+#header .navBar .phoneNumber .phoneIcon{
+	color: #ebcd4b;
+	font-size: 40px;
+	padding-right: 8px;
+}
+
+#header .menuBar {
+	background-color: #ebcd4b;
+	height: 45px;
+}
+
+#header .menuBar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+#header .menuBar ul li{
+	display: inline-block;
+	height: 45px;
+	border-bottom: 2px solid transparent;
+}
+
+#header .menuBar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 45px;
+	font-size: 16px;
+	color: rgb(51,51,51);
+	font-weight: bold;
+	}
+
+#header .menuBar ul li:hover{
+	border-bottom: 2px solid #333333;
+}
