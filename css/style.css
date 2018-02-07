@@ -1,6 +1,6 @@
-*{
+/**{
 	box-sizing: border-box;
-}
+}*/
 
 #main{
 	width: 100%;
@@ -156,18 +156,22 @@
 	background-color: #e6ebf2;
 }
 
-#body .trendMehsul .menu{
+#body .enCoxBaxilan {
+	background-color: #eef3fa;
+}
+
+#body .menu{
 	display: flex;
 	justify-content: space-between;
 }
 
-#body .trendMehsul .menu .content{
+#body .menu .content{
 	margin: 25px 0px 21px 0px;
 	height: 25px;
 	display: flex;
 }
 
-#body .trendMehsul .menu span{
+#body .menu span{
 	text-transform: uppercase;
 	border-left: 4px solid #ebcd4b;
 	padding-left: 5px;
@@ -177,22 +181,22 @@
 	font-weight: bold;
 }
 
-#body .trendMehsul .menu .content ul{
+#body .menu .content ul{
 	padding: 0px 32px;
 }
 
-#body .trendMehsul .menu .content ul li{
+#body .menu .content ul li{
 	display: inline-block;
 	margin: 0px 32px;
 	font-size: 14px;
 	border-bottom: 2px solid transparent;
 }
 
-#body .trendMehsul .menu .content ul li:hover{
+#body .menu .content ul li:hover{
 	border-bottom: 2px solid #737579;
 }
 
-#body .trendMehsul .menu .arrows{
+#body .menu .arrows{
 	align-self: center;
 }
 
@@ -212,29 +216,41 @@
 	line-height: 25px;
 }
 
-#body .trendMehsul .mehsullar{
+#body .mehsullar{
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#body .trendMehsul .mehsul{
+#body .mehsul{
 	width: 264px;
 	height: 356px;
 	border-radius: 10px;
 	box-shadow: 0px 5px 10px rgba(0,0,0,0.02);
 	background-color:#ffffff;
+	margin-bottom: 25px;
 }
 
-#body .trendMehsul .mehsul span{
-	padding: 15px 16px;
+#body .mehsul .mehsulName,
+#body .mehsul .mehsulPrice{
+	margin-left: 16px;
+}
+
+#body .mehsul .mehsulPrice{
+	margin-top: 21px;
+	margin-right: 22px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#body .mehsul .mehsulName span{
     display: inline-block;
     font-size: 18px;
-	line-height: 24px;
 	color: rgb(0,0,0);
+	margin-top: 15px;
 }
 
-#body .trendMehsul .mehsul .image{
+#body .mehsul .image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,4 +258,24 @@
     border-bottom: 1px solid #e6ebf2;
 }
 
-    
+#body .mehsul .mehsulPrice span{
+    display: inline-block;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#body .mehsul .mehsulPrice button{
+    width: 81px;
+    height: 25px;
+    border: 2px solid #ebcd4b;
+    background-color: white;
+    border-radius: 3px;	
+    font-size: 14px;
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+
+#body .mehsul .mehsulPrice button:hover{
+	background-color: #ebcd4b;
+}
