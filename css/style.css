@@ -476,6 +476,7 @@
 	border: 1px solid #ffc147;
 	padding: 20px 17px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 #footer .abune input{
@@ -490,4 +491,32 @@
 	color: rgb(170,170,170);
     margin: 20px 0px;
     padding-left: 16px;
+}
+
+#footer .abune h3{
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Gotham";
+    text-align: center;
+}
+   
+#footer .abune .markets{
+	padding: 0px 68px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer .abune button{
+	border:none;
+	background-color: transparent;
+	position: absolute;
+    right: 30px;
+    bottom: 76px;
+    cursor: pointer;
+}
+
+#footer .abune button i{
+    font-size: 14px;
+    color: rgb(255,142,86);
 }
