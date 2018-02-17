@@ -158,6 +158,50 @@
 	height: 450px;
 	border-radius: 10px;
 	background-image: linear-gradient(135deg, #116fe3 0%, #59c1ff 100%);
+	position: relative;
+	overflow: hidden;
+}
+
+.slide img{
+    position: absolute;
+	right: 96px;
+    top: 14px;
+}
+
+.slide > div{
+	margin-left: 107px;
+    width: 395px;
+    margin-top: 110px;
+    color: white;
+}
+
+.slide h1{
+	font-size: 53px;
+	margin-bottom: 30px;
+}
+
+.slide span{
+    font-weight: bold;
+}
+
+.slide button{
+	width: 165px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #ebcd4b;
+	margin-top: 40px;
+	border:none;
+	font-weight: bold;
+}
+
+.slide .arrowsol{
+	position: absolute;
+
+}
+
+.slide .arrowsag{
+	position: absolute;
+	right: 0;
 }
 
 #body .trendMehsul {
@@ -448,6 +492,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding-top: 45px;
+	flex-wrap: wrap;
 }
 
 #footer .uls ul{
@@ -519,4 +564,56 @@
 #footer .abune button i{
     font-size: 14px;
     color: rgb(255,142,86);
+}
+
+.baku .bottomimg {
+    transform: scale(1,-0.6);
+    opacity: 0.3;
+    margin-top: -22px;
+}
+
+.footerBottom{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 22px;
+}
+
+.logoBottom{
+	display: flex;
+    align-items: center;
+}
+
+.logoBottom img{
+	padding-right: 20px;
+}
+
+.logoBottom div{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 20px;
+	border-left: 1px solid #e1e1e1;
+}
+
+.logoBottom div a{
+	text-decoration: none;
+	color: blue;
+}
+
+.footerBottom .payment{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payMeth{
+    width: 60px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: #e6ebf2;
+    margin-left: 12px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
